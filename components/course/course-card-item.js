@@ -10,9 +10,12 @@ const CourseCardItem = ({ item }) => {
   <Box sx={{
     px: 1,
     py: 1,
-  }}>
+  }}
+ >
     
-<Card sx={{ p: 3,height:'100%' }}>
+<Card sx={{ p: 3,
+   backgroundColor: i === 0 ? 'blue' : 'yellow',
+}}>
                                     <Avatar alt="R" src='' sx={{ margin: 'auto', width: 60, height: 60, backgroundColor: "primary.main", padding: 5, }}><Image src={item.icons} width={50} height={50}></Image></Avatar>
 
                                     <Typography variant='h4' sx={{ py: 2 ,textAlign:'center',color: "primary.dark"}}> {item.title} </Typography>

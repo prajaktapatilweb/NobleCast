@@ -7,6 +7,7 @@ import Contact from '../components/home/Contact';
 import Aboutus from "../components/home/Aboutus";
 import Centermode from "../components/home/Centermode";
 import DrAkshay from "../components/home/DrAkshay";
+import Mission from "../components/home/Mission";
 const Testimonial = lazy(() => import('../components/home/Testimonial'))
 
 export default function Home() {
@@ -14,14 +15,8 @@ export default function Home() {
     <>
 <Aboutus/>
       <Services/>
-      <DrAkshay></DrAkshay>
-      {/* <Centermode/> */}
-      <Suspense fallback=
-        {<div>Component are loading please wait...</div>}>
-        <Photogallery />
-        <Testimonial></Testimonial>
-      </Suspense>
-      <Equipment />
+      <Mission/>
+     
       <Contact></Contact>
 
     </>
