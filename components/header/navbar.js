@@ -34,11 +34,9 @@ import Image from "next/image";
 const navItems = [
     { linkID: "/#home", label: "Home" },
     { linkID: "/#aboutus", label: "About Us" },
-    { linkID: "/#treatments", label: "Treatments" },
-    { linkID: "/#Doctors", label: "Doctors" },
-    { linkID: "/#testimonials", label: "Testimonials" },
-    { linkID: "/#gallery", label: "Gallery" },
-    { linkID: "/#contactform", label: "Contact" },
+    { linkID: "/#treatments", label: "Products" },
+    { linkID: "/#Vision", label: "Vision" },
+   
 ];
 
 // const settings = ["Profile", "Account", "Dashboard", "Logout"];
@@ -106,12 +104,13 @@ export default function Navbar(props) {
                                 color: "black",
                                 textDecoration: "none",
                                 textAlign: "center",
+                                
                             }}
                         >
                             <Button
                                 key={item.label}
                                 onClick={handleCloseNavMenu}
-                                sx={{ my: 2, color: "black", display: "block" }}>
+                                sx={{ my: 2, mx:3,color: "black", display: "block",fontSize:18 }}>
                                 {item.label}
                             </Button>
                         </Link>

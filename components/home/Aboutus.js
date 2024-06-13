@@ -23,13 +23,13 @@ const Aboutus = () => {
         <>
 
             {/* <!-- ======= About Us Section ======= --> */}
-                <section  style={{ background: 'white' }}>
+                <section id='aboutus'  style={{ background: 'white' }}>
                     <Container>
 <Heading data={headList1}></Heading>
                         <Grid container spacing={3}>
                            
-                            <Grid item xs={12} md={12} sx={{mx:10}}>
-                                <p  style={{marginTop:4,marginBottom:0,textAlign:'justify'}}>
+                            <Grid item xs={12} md={12} sx={{mx:{xs:3,sm:5,md:10}}}>
+                                <p  style={{marginTop:4,marginBottom:0,textAlign:'justify',fontSize:20}}>
                                 Noble Cast Inc. estd in 2024 aiming for Warehousing, Distribution and Trading of Aluminum Products to US Clients.
 At our core, we specialize in the warehousing, distribution, and trading of high-quality aluminum products. With extensive industry experience and a robust logistics network, we ensure prompt and efficient delivery to meet the diverse needs of our clients. Our commitment to excellence and customer satisfaction has established us as a trusted partner in the aluminum market, delivering tailored solutions that drive business success.
 

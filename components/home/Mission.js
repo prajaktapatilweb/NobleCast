@@ -57,9 +57,9 @@ const Mission = () => {
   };
   return (
     <Box
-      id="treatments"
+      id="Vision"
       sx={{
-        py: { xs: 7, md: 7 },
+        py:10,
 
         // backgroundColor: "primary.light",
       }}
@@ -73,28 +73,24 @@ const Mission = () => {
           {Details.map((item,i) => (
               <Grid item xs={12} md={4}  alignItems='center' justifyContent='center'>
                   
-  <Box sx={{
-    px: 1,
-    py: 1,
-  }}
- >
+
     
 <Card sx={{ p: 3,
-   backgroundColor: i === 0 ? 'primary.dark' : 'white',
+   backgroundColor: i === 0 ? '#253e81' : 'white',
    color: i === 0 ? 'white' : 'black',
 
 }}>
                                     <Avatar alt="R" src='' sx={{ margin: 'auto', width: 60, height: 60, backgroundColor: "primary.main",color:'white', padding: 5, }}><Image src={item.icons} width={50} height={50}></Image></Avatar>
 
                                     <Typography variant='h4' sx={{ py: 2 ,textAlign:'center',color: i === 0 ? 'primary.light' : 'primary.dark',}}> {item.title} </Typography>
-                                    <Typography variant='body1' sx={{ textAlign: 'justify' }}>
+                                    <Typography variant='body1' sx={{ textAlign: 'justify',fontSize:19}}>
                                         {item.info}
                                     </Typography>
 
                                 </Card>
     
     
-  </Box>
+ 
                </Grid>
               ))}
            

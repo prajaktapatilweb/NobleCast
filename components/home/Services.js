@@ -82,7 +82,7 @@ const Services = () => {
           {Details.map((item) => (
              
                 <CourseCardItem key={String(item.id)} item={item} />
-               
+               []
               ))}
            
         </Slider> */}

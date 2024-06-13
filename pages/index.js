@@ -17,7 +17,7 @@ export default function Home() {
       <Services/>
       <Mission/>
      
-      <Contact></Contact>
+      {/* <Contact></Contact> */}
 
     </>
   )

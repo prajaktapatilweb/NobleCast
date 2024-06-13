@@ -21,7 +21,7 @@ const AppThemeSetting = () => {
   const [isSettingOpen, setSettingOpen] = useState(false);
   const [isColorSettingOpen, setColorSettingOpen] = useState(false);
 
-  const contactno2 = "+917373736215";
+  const contactno2 = "+919049349588";
 
   return (
     <>    
@@ -76,7 +76,7 @@ const AppThemeSetting = () => {
 
       </Box>
     
-    <Box
+    {/* <Box
       sx={{
         position: 'fixed',
         left: 0,
@@ -94,7 +94,7 @@ const AppThemeSetting = () => {
               >
                 <Image src="/images/whatsapp.webp" width={50} height={50} />
               </Link>
-    </Box>
+    </Box> */}
     </>
 
   );
