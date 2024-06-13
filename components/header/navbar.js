@@ -154,7 +154,7 @@ export default function Navbar(props) {
                             </IconButton>
                         )}
                         <Box sx={{flexGrow:1,p:2,textAlign:{xs:'right',sm:'right',md:'left',lg:'left'}}}>
- <Image src="/images/NCILogo.jpg" width={150} height={70} className="pngback"></Image>
+ <Image src="/images/NCILogo.JPG" width={150} height={70} className="pngback"></Image>
  </Box>
                         {/* <Typography
                             variant="h6"
